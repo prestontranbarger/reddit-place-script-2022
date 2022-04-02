@@ -38,7 +38,7 @@ def color_id_to_name(color_id):
 
 # function to find the closest rgb color from palette to a target rgb color
 def closest_color(target_rgb, rgb_colors_array_in):
-    r, g, b, a = target_rgb
+    r, g, b = target_rgb
     color_diffs = []
     for color in rgb_colors_array_in:
         cr, cg, cb = color
